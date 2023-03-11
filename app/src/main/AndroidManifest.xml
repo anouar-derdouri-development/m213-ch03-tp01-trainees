@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Crj"
         tools:targetApi="31">
         <activity
+            android:name=".Ex02Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Ex01Activity"
             android:exported="true">
             <intent-filter>
